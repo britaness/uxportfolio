@@ -1,0 +1,140 @@
+@media (max-width: 1023px) {
+  #summaryContainer h1 {
+    padding-top: 55px;
+  }
+
+  .projectTile {
+    width: 90%;
+    height: 60%;
+    margin: 5% 5% 5% 5%;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+    display: block;
+    overflow-y: auto;
+  }
+
+  .personaTile {
+    width: 90%;
+    top: 0em;  /* position the top  edge of the element at the middle of the parent */
+    left: 2rem; /* position the left edge of the element at the middle of the parent */
+    transform: translate(2rem, 5%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+  }
+
+  .toTop {
+    opacity: 0;
+  }
+
+  #resumeButton {
+    margin: 0 auto;
+  }
+
+  #header {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  #logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  nav {
+    display: block;
+    width: 500px;
+    position: absolute;
+    top: 10em;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -25%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  .contentContainer {
+    padding: 2rem 2rem;
+  }
+
+  .h3Orphan {
+    color: rgba(50, 50, 50, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .h4Orphan {
+    color: black;
+    font-weight: 200;
+    font-size: 1em;
+    line-height: 1.7;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .contentContainerItem {
+    display: block;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 25%;
+  }
+
+  #map {
+    width: 90%;
+    margin-left: 2rem;
+  }
+
+  #summaryContainer {
+    padding: 9rem 2rem 5rem 2rem;
+  }
+
+}
+
+@media (max-width: 850px) {
+  #summaryContainer h1 {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  #aboutPortrait {
+    width: 40%;
+    margin-left: 35%;
+  }
+
+  .contentContainerItem {
+    display: block;
+    margin-right: 10%;
+    width: 100%;
+    float: none;
+  }
+
+}
+
+@media (max-width: 575px) {
+  #rButContainer {
+    margin-left: 35%;
+  }
+
+  #resumeButton {
+    border: 1px solid grey;
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 10px;
+  }
+  #summaryContainer h1 {
+    padding-top: 155px;
+  }
+}

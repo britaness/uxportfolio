@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Brita Ness Design</title>
+    <style>
+      .animated {
+        padding-top:0px;
+        margin-bottom:0px;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+
+      .animated2 {
+        padding-top:0px;
+        margin-bottom:0px;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-delay: 1s;
+      }
+
+      .animated3 {
+        padding-top:0px;
+        margin-bottom:0px;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-delay: 1.5s;
+      }
+
+      @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+
+      @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+
+      .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+      }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+    <link rel="stylesheet" type="text/css" href="mediaQueries.css"></link>
+    <script type = "text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,500,700,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body id="animated-example" class="animated fadeIn">
+<!--HERO -->
+  <div id = "hero">
+    <div id="gradContainer">
+      <div class = "downArrowPosition">
+        <a href= "#aboutContainer"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class = "heroContent">
+    <img id = "logo" src="images/logo.png" alt="logo">
+    <nav id = "#top">
+      <ul>
+        <li><a href = "#aboutContainer">About</a></li>
+        <li><a href = "#workContainer">Work</a></li>
+        <li><a href = "#resume">Resume</a></li>
+      </ul>
+    </nav>
+    <div id="heroText">
+      <h1 class = "animated2 fadeIn">Brita Ness</h1>
+      <h2 class = "animated3 fadeIn">Seattle-based UX designer</h2>
+    </div>
+  </div>
+
+  <div class = "toTop">
+    <a href= "#top"><i class="fas fa-chevron-up"></i></a>
+  </div>
+
+<!-- ABOUT -->
+<div id = "aboutContainer">
+  <div class = "sectionHeading">About</div>
+  <img id = "aboutPortrait" src="images/brnPortrait.jpg">
+  <p id = "aboutText"> I'm a Seattle-based UX Designer with experience in nonprofit and commercial projects. I built my background in visual design and a user-centered approach in my studies in the Studio Art department at Willamette University and in the UX Certificate Program at the School of Visual Concepts.
+I am interested in the role and responsibility of art, design, and technology in solving large-scale social and environmental problems.</p>
+<p>I enjoy solving complex problems and believe that the core role of UX is to help people solve problems in order to spend more time focusing on what truly matters to them.</p>
+<p>Bonus: I've recently been enjoying teaching myself how to code. I coded this portfolio website from scratch.</p>
+
+<!-- ​<h3>EDUCATION</h3>
+<p>Willamette University - Studio Art</p>
+<p>School of Visual Concepts - UX Certificate Program</p>
+​
+<h3>EXPERIENCE / SKILLS</h3>
+<p>UX Design + UX Research</p>
+<p>Graphic Design</p>
+​<p>Painting + Drawing + Mixed Media</p>
+​
+<h3>AWARDS / RECOGNITION</h3>
+<p>Willamette University, summa cum laude</p>
+<p>Phi Beta Kappa National Honor Society</p> -->
+<a class = "caseStudyButton" href = "https://www.britaness.com/">View Art Portfolio</a>
+</div>
+
+<!--WORK -->
+<div id = "workContainer">
+  <div class = "sectionHeading">Work</div>
+  <div id = "work">
+    <!-- PROJECT 1 -->
+    <div class = "projectTile">
+      <img src="images/globalHelpThumb.jpg">
+      <div class = "projectTileTextContent">
+        <h3>Global HELP Site [Redesign]</h3>
+        <h4>UX Design / UI Design / User Research / Information Architecture</h4>
+        <p> A "full stack" UX project that I did with a small, local nonprofit organization.</p>
+        <a class = "caseStudyButton" href = "globalHelpCaseStudy.html">Read Case Study</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class = "projectTile">
+      <img src="images/wineContentModel.png">
+      <div class = "projectTileTextContent">
+        <h3>Organizing Wines Around the World</h3>
+        <h4>User Research / Information Architecture</h4>
+        <p>I developed a content model for a hypothetical wine store website.</p>
+        <a class = "caseStudyButton" href = "#">Read Case Study</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class = "projectTile">
+      <img src="images/hero.png">
+      <div class = "projectTileTextContent">
+        <h3>[SVC Capstone Project Title Etc.]</h3>
+        <h4>UX Design / UI Design</h4>
+        <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+        <a class = "caseStudyButton" href = "#">Read Case Study</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id = "resume">
+  <div id = "rButContainer">
+  <a class = "caseStudyButton" id = "resumeButton" href = "#">View Resume</a>
+  </div>
+  <i class="fab fa-linkedin-in"></i>
+</div>
+
+<footer>&copy; 2018 Brita Ness</footer>
+<script src="myScript.js" charset="utf-8"></script>
+</body>
+</html>
