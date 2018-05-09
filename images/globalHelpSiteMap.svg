@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="982px" height="149px" viewBox="0 0 982 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-26" transform="translate(-129.000000, -248.000000)">
+            <g id="Group-2" transform="translate(129.000000, 248.000000)">
+                <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="438" y="1" width="120" height="46"></rect>
+                <text id="Home" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                    <tspan x="474" y="29">Home</tspan>
+                </text>
+                <g id="Group" transform="translate(0.000000, 101.000000)">
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="1" y="1" width="153" height="46"></rect>
+                    <text id="New-&amp;-Featured" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="12" y="30">New &amp; Featured</tspan>
+                    </text>
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="174" y="1" width="120" height="46"></rect>
+                    <text id="Pediatrics" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="195" y="30">Pediatrics</tspan>
+                    </text>
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="314" y="1" width="120" height="46"></rect>
+                    <text id="Surgery" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="344" y="30">Surgery</tspan>
+                    </text>
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="453" y="1" width="191" height="46"></rect>
+                    <text id="Pediatric-Orthopedic" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="462" y="30">Pediatric Orthopedics</tspan>
+                    </text>
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="663" y="1" width="178" height="46"></rect>
+                    <text id="History-of-Medicine" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="675" y="30">History of Medicine</tspan>
+                    </text>
+                    <rect id="Rectangle-54" stroke="#2E3D9B" stroke-width="2" x="861" y="1" width="120" height="46"></rect>
+                    <text id="For-Families" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" letter-spacing="-0.457142889" fill="#2E3D9B">
+                        <tspan x="874" y="30">For Families</tspan>
+                    </text>
+                </g>
+                <path d="M78.5,74.5 L923.5,74.5" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M497.5,48.5 L497.5,73" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M78.5,76.5 L78.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M233.5,76.5 L233.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M373.5,76.5 L373.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M545.5,76.5 L545.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M749.5,76.5 L749.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M923.5,76.5 L923.5,101" id="Line" stroke="#2E3D9B" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
