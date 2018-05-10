@@ -11,7 +11,22 @@
 }
 
 
-@media (max-width: 1023px) {
+@media (max-width: 992px) {
+  #ghoSketch, #ghoDesktopWireframe {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  #ghoMobileWireframe {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  #ghoSiteMap {
+    width: 100%;
+    margin-left: 0;
+  }
+
   #summaryContainer h1 {
     padding-top: 55px;
   }
@@ -26,12 +41,11 @@
   }
 
   .personaTile {
-    width: 90%;
-    top: 0em;  /* position the top  edge of the element at the middle of the parent */
-    left: 2rem; /* position the left edge of the element at the middle of the parent */
-    transform: translate(2rem, 5%); /* This is a shorthand of
-                                         translateX(-50%) and translateY(-50%) */
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
   }
+
 
   .toTop {
     opacity: 0;
@@ -76,31 +90,8 @@
     padding: 2rem 2rem;
   }
 
-  .h3Orphan {
-    color: rgba(50, 50, 50, 1);
-    text-transform: uppercase;
-    font-weight: 700;
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  .h4Orphan {
-    color: black;
-    font-weight: 200;
-    font-size: 1em;
-    line-height: 1.7;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .contentContainerItem {
-    display: block;
-    margin-right: 5%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    width: 25%;
+  #teamCol1, #teamCol2, #teamCol3 {
+    padding-top: 5%;
   }
 
   #map {
@@ -124,13 +115,6 @@
   #aboutPortrait {
     width: 40%;
     margin-left: 35%;
-  }
-
-  .contentContainerItem {
-    display: block;
-    margin-right: 10%;
-    width: 100%;
-    float: none;
   }
 
 }

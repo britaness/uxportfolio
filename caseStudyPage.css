@@ -20,9 +20,10 @@ body {
 #team {
   background-color: #F2F2F2;
   width: 100%;
+  min-height: 275px
 }
 
-#coreAssumptions, #analyzingData, #userResearch, #personas, #ia, #scoping {
+#coreAssumptions, #analyzingData, #userResearch, #personas, #ia, #scoping, #wireframing {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-bottom: 0px;
@@ -35,34 +36,44 @@ body {
 }
 
 #ghoSiteMap {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.contentContainerItem {
-  display: inline-block;
-  margin-right: 5%;
-  margin-bottom: 15px;
-  width: 20%;
-  vertical-align: top;
+#ghoMobileWireframe {
+  /*display: inline-block;
+  height: 450px;*/
+  width: 100%;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+}
+
+#ghoDesktopWireframe {
+  /*display: inline-block;
+  height: 450px;
+  margin-right: 5%;*/
+  width: 86%;
+  margin-left: 7%;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+}
+
+#ghoSketch {
+  /*display: inline-block;
+  height: 450px;
+  margin-right: 5%;*/
+  width: 100%;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
 }
 
 .personaTile {
+  width: 94%;
+  margin: 5% 3% 5% 3%;
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
-  display: block;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 50%;
-  top: 10em;  /* position the top  edge of the element at the middle of the parent */
-  left: 50%; /* position the left edge of the element at the middle of the parent */
-  transform: translate(50%, 5%); /* This is a shorthand of
-                                       translateX(-50%) and translateY(-50%) */
 }
-
-/*.fas {
-  color: rgba(34, 48, 141, 1);
-}*/
 
 strong {
   font-weight: 500;
@@ -86,24 +97,6 @@ h3 {
   color: rgba(50, 50, 50, 1);
   text-transform: uppercase;
   font-weight: 700;
-  padding-right: 15%;
-}
-
-.h3Orphan {
-  color: rgba(50, 50, 50, 1);
-  text-transform: uppercase;
-  font-weight: 700;
-  padding-right: 15%;
-  padding-left: 15%;
-  padding-top: 30px;
-}
-
-.h4Orphan {
-  color: black;
-  font-weight: 200;
-  font-size: 1em;
-  line-height: 1.7;
-  padding-left: 15%;
   padding-right: 15%;
 }
 
