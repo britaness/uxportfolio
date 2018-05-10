@@ -1,3 +1,16 @@
+@media (min-width: 1900px) {
+  .projectTile {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .projectTile {
+    height: 650px;
+  }
+}
+
+
 @media (max-width: 1023px) {
   #summaryContainer h1 {
     padding-top: 55px;
