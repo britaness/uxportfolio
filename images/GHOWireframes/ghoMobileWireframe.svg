@@ -162,7 +162,7 @@
                 <tspan x="42" y="24">Social media icons</tspan>
             </text>
         </g>
-        <text id="Copyright-2017-Globa" font-family="Helvetica" font-size="14" font-weight="normal" fill="#FFFFFF">
+        <text id="Copyright-2017-Globa" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
             <tspan x="20" y="1282">Copyright 2017 Global HELP | Privacy Policy</tspan>
         </text>
         <path d="M-23.5,1251.5 L341.573565,1251.5" id="Line-5" stroke="#FFFFFF" stroke-linecap="square"></path>
