@@ -71,6 +71,7 @@ body {
 
 .personaTile {
   width: 66%;
+  align-self: center;
   margin: 3% 17% 3% 17%;
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
 }
