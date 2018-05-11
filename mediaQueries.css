@@ -41,9 +41,8 @@
   }
 
   .personaTile {
-    width: 80%;
-    margin-right: 10%;
-    margin-bottom: 2%;
+    width: 70;
+    margin: 2% 15% 2% 15%;
   }
 
 
@@ -109,12 +108,22 @@
   #summaryContainer h1 {
     padding-top: 100px;
   }
+
+  .personaTile {
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+  }
 }
 
 @media (max-width: 600px) {
   #aboutPortrait {
     width: 40%;
     margin-left: 35%;
+  }
+
+  .personaTile {
+    width: 100%;
+    margin: 2% 0% 2% 0%;
   }
 
 }
