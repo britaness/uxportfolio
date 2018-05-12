@@ -54,6 +54,18 @@ body {
   margin-top: 15px;
 }
 
+#ghoMobileComp{
+  width: 100%;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+}
+
+#ghoDesktopComp {
+  width: 86%;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+}
+
 #ghoSketch {
   width: 100%;
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);

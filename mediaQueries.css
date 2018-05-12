@@ -12,12 +12,12 @@
 
 
 @media (max-width: 992px) {
-  #ghoSketch, #ghoDesktopWireframe {
+  #ghoSketch, #ghoDesktopWireframe, #ghoDesktopComp {
     width: 60%;
     margin-left: 20%;
   }
 
-  #ghoMobileWireframe {
+  #ghoMobileWireframe, #ghoMobileComp {
     width: 30%;
     margin-left: 35%;
   }
