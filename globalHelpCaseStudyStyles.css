@@ -109,6 +109,7 @@ h4 {
   font-weight: 200;
   font-size: 1em;
   line-height: 1.7;
+  font-family: 'Merriweather', serif;
 }
 
 ul {
@@ -117,6 +118,8 @@ ul {
   font-weight: 200;
   margin-left: 1rem;
   margin-top: 1rem;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
 }
 
 nav li {
@@ -125,6 +128,7 @@ nav li {
   margin-right: 20px;
   margin-left: 20px;
   opacity: 1;
+  font-family: 'Merriweather', serif;
 }
 
 nav a {
