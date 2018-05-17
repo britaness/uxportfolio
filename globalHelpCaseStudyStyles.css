@@ -108,13 +108,13 @@ h4 {
   color: black;
   font-weight: 200;
   font-size: 1em;
-  line-height: 1.7;
+  line-height: 1.8em;
   font-family: 'Merriweather', serif;
 }
 
 ul {
   list-style: disc;
-  line-height: 1.7;
+  line-height: 1.8em;
   font-weight: 200;
   margin-left: 1rem;
   margin-top: 1rem;
