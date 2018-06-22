@@ -23,7 +23,7 @@ body {
   min-height: 275px
 }
 
-#coreAssumptions, #analyzingData, #userResearch, #personas, #ia, #scoping, #wireframing {
+#concepting, #competitiveAnalysis {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-bottom: 0px;
@@ -149,4 +149,32 @@ nav li a:hover {
   transform: scale(1.05);
   transition: all 0.5s;
   cursor: pointer;
+}
+
+#moreProjects {
+  border-top: 1px solid #AAA;
+  margin-top: 40px;
+  /*background-color: #F2F2F2;*/
+}
+
+.projectAtBottomImg {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.projectAtBottomText {
+}
+
+.projectAtBottom {
+  margin-top: 30px;
+}
+
+footer {
+  background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 100px;
 }
