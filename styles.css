@@ -55,6 +55,11 @@ nav {
   right: 10%;
 }
 
+nav ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 ul {
   width: 100%;
 }
