@@ -205,7 +205,7 @@ svg {
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
   display: inline-block;
   background-color: white;
-  opacity: 0;
+  opacity: 1;
 }
 
 .projectTile:hover {
