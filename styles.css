@@ -35,6 +35,10 @@ body {
 	animation: Gradient 15s ease infinite;
 }
 
+.dash {
+  color: #23D5AB;
+}
+
 nav li {
   font-family: 'Merriweather', serif;
   list-style: none;

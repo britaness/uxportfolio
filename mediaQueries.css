@@ -17,6 +17,12 @@
     margin-left: 20%;
   }
 
+  .sectionHeading {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
   #ghoMobileWireframe, #ghoMobileComp {
     width: 30%;
     margin-left: 35%;
