@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
+  color: #444;
   overflow-x: hidden;
   width: 100%;
 }
@@ -50,7 +51,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #444;
 }
 
 nav {
@@ -138,11 +139,13 @@ svg {
 #aboutPortrait {
   display: block;
   width: 30%;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  /*border-radius: 50%;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   margin-top: 3%;
   margin-bottom: 3%;
+  float: left;
+  margin-right: 4%;
 }
 
 #aboutText {
@@ -159,6 +162,12 @@ svg {
 }
 
 #aboutContainer {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+#skillsContainer {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
