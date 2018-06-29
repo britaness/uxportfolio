@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Roboto Slab', serif;
   color: #444;
   overflow-x: hidden;
   width: 100%;
@@ -43,13 +44,12 @@ body {
 }
 
 nav li {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
   opacity: 1;
-  font-weight: bold;
 }
 
 nav a {
@@ -100,20 +100,20 @@ nav li a:hover {
 h1 {
   font-size: 5em;
   font-weight: 200;
+  color: black;
 }
 
 h2 {
   padding-left: 30px;
   font-size: 1.75em;
-  font-weight: bold;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   font-size: 1.3em;
   line-height: 1.4em;
   margin-bottom: 6%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h4 {
@@ -122,7 +122,8 @@ h4 {
   font-size: .75em;
   line-height: 1.2em;
   margin-bottom: 6%;
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -130,7 +131,8 @@ p {
   font-weight: 400;
   line-height: 1.8em;
   margin-bottom: 2em;
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 svg {
@@ -176,9 +178,19 @@ svg {
   padding-bottom: 5%;
 }
 
+#contactContainer {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+#contactContainerText {
+  text-align: center;
+}
+
 .sectionHeading {
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 200;
   color: #444;
   text-align: center;
   padding-top: 5%;
@@ -187,12 +199,12 @@ svg {
 
 .toTop {
   /*background: linear-gradient(-45deg, #EE7752, #E73C7E);*/
-  background: rgb(100,100,100);
+  background: #444;
   position: fixed;
   top: 86%;
   left: 92%;
-  border-radius: 50%;
-  padding: 15px;
+  /*border-radius: 50%;*/
+  padding: 5px;
   cursor: pointer;
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
   /*opacity: 0;*/
@@ -253,6 +265,7 @@ svg {
   text-decoration: none;
   line-height: 40px;
   padding: 10px;
+  font-weight: 300;
 }
 
 
@@ -273,6 +286,10 @@ svg {
 #rButContainer {
   margin-top: 5%;
   margin-left: 45%
+}
+
+.fa-envelope, .fa-linkedin {
+  color: #444;
 }
 
 footer {
