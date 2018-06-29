@@ -47,6 +47,7 @@ nav li {
   margin-right: 20px;
   margin-left: 20px;
   opacity: 1;
+  font-weight: bold;
 }
 
 nav a {
@@ -110,16 +111,16 @@ h3 {
   font-size: 1.3em;
   line-height: 1.4em;
   margin-bottom: 6%;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h4 {
   color: grey;
   font-weight: 500;
-  text-transform: uppercase;
   font-size: .75em;
   line-height: 1.2em;
   margin-bottom: 6%;
+  font-family: 'Merriweather', serif;
 }
 
 p {
@@ -175,7 +176,7 @@ svg {
 
 .sectionHeading {
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 200;
   color: #444;
   text-align: center;
   padding-top: 5%;
