@@ -12,7 +12,7 @@
 
 
 @media (max-width: 992px) {
-  #ghoSketch, #ghoDesktopWireframe, #ghoDesktopComp {
+  #ghoSketch, #ghoDesktopWireframe, #ghoDesktopComp{
     width: 60%;
     margin-left: 20%;
   }
@@ -28,7 +28,7 @@
     margin-left: 35%;
   }
 
-  #ghoSiteMap {
+  #ghoSiteMap, #BBsketch, #BBinterface {
     width: 100%;
     margin-left: 0;
   }
