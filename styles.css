@@ -54,7 +54,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #444;
+  color: white;
 }
 
 nav {
@@ -73,7 +73,7 @@ ul {
 }
 
 nav li a:hover {
-  color: white;
+  color: black;
   transition: all 0.3s;
 }
 
@@ -235,14 +235,14 @@ svg {
   height: 550px;
   overflow-y: hidden;
   margin: 50px 1.5% 50px 1.5%;
-  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
   display: inline-block;
   background-color: white;
   opacity: 1;
 }
 
 .projectTile:hover {
-  box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.1);
 }
 
 .projectTileTextContent {
