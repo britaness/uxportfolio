@@ -1,20 +1,25 @@
-@media (max-width: 700px) {
+@media (max-width: 975px) {
+    h1 {
+        font-size: 4rem;
+        margin-top: 5vh;
+        letter-spacing: 0.05rem;
+      }
+}
+
+@media (max-width: 850px) {
     .navbar {
         padding: 15px 20px;
     }
-
-    .logo {
-        height: 3rem;
+    .body-content {
+        padding: 0 20px;
     }
 
-    .cone-icon {
-        height: 1.5rem;
-        margin-top: 5vh;
+    .navbar > .logo {
+        height: 3.5rem;
     }
 
     h1 {
-      font-size: 1.8rem;
-      margin-top: 3vh;
+      font-size: 3.5rem;
     }
 
     h3 {
@@ -22,3 +27,31 @@
         margin-top: 5vh;
     }
   }
+
+  @media (max-width: 650px) {
+    h1 {
+        font-size: 2.5rem;
+      }
+
+      h1 > .white-text {
+        padding: 1px;
+      }
+}
+
+@media (max-width: 475px) {
+    h1 {
+        font-size: 2rem;
+      }
+}
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 1.75rem;
+      }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 1.5rem;
+      }
+}
