@@ -73,6 +73,16 @@
         100% {opacity: 1; margin-left: 0px;}
       }
 
+      @-webkit-keyframes fadeUp {
+        0% {opacity: 0; top: -11rem;}
+        100% {opacity: 1; top: -12rem;}
+      }
+
+      @keyframes fadeUp {
+        0% {opacity: 0; top: -11rem;}
+        100% {opacity: 1; top: -12rem;}
+      }
+
       .fadeIn {
         -webkit-animation-name: fadeIn;
         animation-name: fadeIn;
@@ -81,6 +91,11 @@
       .fadeRight {
         -webkit-animation-name: fadeRight;
         animation-name: fadeRight;
+      }
+
+      .fadeUp {
+        -webkit-animation-name: fadeUp;
+        animation-name: fadeUp;
       }
 
     </style>
@@ -108,9 +123,17 @@
     </div>
     <div class="body-content">
         <!-- <img class="cone-icon animated2 fadeIn" src="images/traffic-cone-solid.svg"> -->
-        <h3 class="animated3 fadeIn top">Brita Ness</h3>
-        <p class="animated3 fadeIn">Currently providing design leadership at <a href="http://atomicinfotech.com" target="_blank"> Atomic</a></p>
-        <h1 class="animated fadeRight">Brita is a user-centered <br> <span class="white-text">digital designer </span><br> based in Seattle, WA</h1>
+        <div class="small-drawing-container">
+          <img class="small-drawing animated2 fadeIn" src="images/self-portrait-contour.svg">
+          <div class="text-next-to-drawing">
+            <h3 class="animated3 fadeIn top">Brita Ness</h3>
+            <p class="animated3 fadeIn">Currently providing design leadership at <a href="http://atomicinfotech.com" target="_blank"> Atomic</a></p>
+          </div>
+        </div>
+        <div class="header-and-image">
+          <h1 class="animated fadeRight">Brita is a user-centered <br> <span class="white-text">digital designer </span><br> based in Seattle, WA</h1>
+          <img class="animated2 fadeUp" src="images/self-portrait-contour.svg">
+        </div>
         <h3 class="animated3 fadeIn under-construction">Portfolio under construction, please check back later</h3>
     </div>
 

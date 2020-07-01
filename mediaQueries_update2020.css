@@ -4,6 +4,34 @@
         margin-top: 5vh;
         letter-spacing: 0.05rem;
       }
+
+      .header-and-image > img {
+        top: -10rem;
+        right: 0;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-and-image > img {
+      display: none;
+  }
+
+    .small-drawing-container {
+      display: flex;
+      align-items: center;
+    }
+    .small-drawing {
+      display: block;
+      height: 125px;
+      margin-top: 3vh;
+      margin-right: 20px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 3vh;
+  }
 }
 
 @media (max-width: 850px) {
@@ -20,11 +48,6 @@
 
     h1 {
       font-size: 3.5rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-        margin-top: 5vh;
     }
   }
 

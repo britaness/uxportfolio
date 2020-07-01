@@ -66,6 +66,20 @@ a:hover {
     margin: 0 auto;
 }
 
+.header-and-image {
+    position: relative;
+}
+
+.small-drawing {
+    display: none;
+}
+
+.header-and-image > img {
+    position: absolute;
+    top: -12rem;
+    right: 0;
+}
+
 h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 5rem;
