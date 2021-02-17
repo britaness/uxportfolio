@@ -101,6 +101,8 @@
     </style>
     <link rel="stylesheet" type="text/css" href="reset.css"></link>
     <link rel="stylesheet" type="text/css" href="style_update2020.css"></link>
+    <link rel="stylesheet" type="text/css" href="tooltip.css"></link>
+
     <!-- <link rel="stylesheet" type="text/css" href="rain_style.css"></link> -->
     <link rel="stylesheet" type="text/css" href="mediaQueries_update2020.css"></link>
     <script type = "text/javascript" src="jquery-3.3.1.min.js"></script>
@@ -121,10 +123,24 @@
       <img class="logo" src="images/logo-white.svg">
       <div class="link-wrapper"><a href = "images/Brita_Ness_Resume.pdf">Resume</a><div class="pdf-tag">PDF</div></div>
     </div>
+    <div class="external-links">
+      <div class="tooltip">          
+          <a class="project-link" target="_blank" href="https://www.linkedin.com/in/britarness/">
+            <img class="linkedin link" src="images/linkedin-in-brands.svg">
+          </a>
+          <span class="tooltiptext">LinkedIn</span>
+        </div>
+      <div class="tooltip">
+        <a class="project-link" target="_blank" href="https://www.britaness.com">
+          <img class="art link" src="images/palette-solid.svg">
+        </a>
+        <span class="tooltiptext">Art Portfolio</span>
+      </div>
+    </div>
     <div class="body-content">
         <!-- <img class="cone-icon animated2 fadeIn" src="images/traffic-cone-solid.svg"> -->
         <div class="small-drawing-container">
-          <img class="small-drawing animated2 fadeIn" src="images/self-portrait-contour.svg">
+          <!-- <img class="small-drawing animated2 fadeIn" src="images/self-portrait-contour.svg"> -->
           <div class="text-next-to-drawing">
             <h3 class="animated3 fadeIn top">Brita Ness</h3>
             <p class="animated3 fadeIn">Currently providing design leadership at <a href="http://atomicinfotech.com" target="_blank"> Atomic</a></p>
@@ -132,14 +148,32 @@
         </div>
         <div class="header-and-image">
           <h1 class="animated fadeRight">Brita is a user-centered <br> <span class="white-text">digital designer </span><br> based in Seattle, WA</h1>
-          <img class="animated2 fadeUp" src="images/self-portrait-contour.svg">
+          <!-- <img class="animated2" src="images/line-graphic.svg"> -->
+
+          <!-- <img class="animated2 fadeUp" src="images/self-portrait-contour.svg"> -->
         </div>
-        <h3 class="animated3 fadeIn under-construction">Portfolio under construction, please check back later</h3>
+        <!-- <h3 class="animated3 fadeIn under-construction">Portfolio under construction, please check back later</h3> -->
+        <div class="work-container">
+          <h3 class="animated3 fadeIn top">Work</h3>
+        </div>
+        <div class="animated3 fadeIn projects-array">
+          <a class="project-link" href="globalHelpCaseStudy.html">
+          <div class="project" style="background-image: url(images/globalHelpThumb.png); background-size: cover;">
+            <div class="project-description">
+              <h4>Global HELP Site Redesign <span class="project-date">2018</span></h4>
+              <p class="read-time">Reading time: 10 min</p>
+              <p>A "full stack" UX project that I did with a small, nonprofit organization in Seattle.</p>
+            </div>
+          </div>
+        </a>
+          <div class="project"><div class="project-description"></div></div>
+          <div class="project"><div class="project-description"></div></div>
+        </div>
     </div>
 
     <!-- <img class="construction-skyline animated2 fadeUp" src="images/mountains.svg"> -->
 
-<footer class="animated3 fadeIn">Copyright &copy; 2020 Brita Ness</footer>
+<footer class="animated3 fadeIn">Copyright &copy; 2021 Brita Ness</footer>
 
 
 <script src="myScript.js" charset="utf-8"></script>

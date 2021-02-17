@@ -1,15 +1,15 @@
-var toTopButton = document.querySelector(".toTop");
+// var toTopButton = document.querySelector(".toTop");
 
-var myScrollFunc = function() {
-  var y = window.scrollY;
-  if (y <= 800) {
-    toTopButton.style.display = "none";
-  } else {
-    toTopButton.style.display = "block";
-  }
-}
+// var myScrollFunc = function() {
+//   var y = window.scrollY;
+//   if (y <= 800) {
+//     toTopButton.style.display = "none";
+//   } else {
+//     toTopButton.style.display = "block";
+//   }
+// }
 
-window.addEventListener("scroll", myScrollFunc);
+// window.addEventListener("scroll", myScrollFunc);
 
 
 
