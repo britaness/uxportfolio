@@ -5,7 +5,6 @@ body {
     padding-bottom: 75px;
     line-height: 1.5;
     box-sizing: border-box;
-    /* background-image: linear-gradient(0deg, #d8cfcb, #fbf8f5); */
     background: #fbf8f5;
     background-position: center;
 }
@@ -54,20 +53,6 @@ a:hover {
     letter-spacing: 0.05rem;
     box-shadow: 0px 5px 10px #df9e9f;
 }
-
-/* .under-construction::before {
-    content: '';
-    background-image: url("images/traffic-cone-solid.svg");
-    background-size: 1.15rem 1.15rem;
-    display: inline-block;
-    width: 1.15rem; 
-    height: 1.15rem;
-    margin-right: 15px;
-}
-
-.under-construction {
-    color: #A70115;
-} */
 
 .body-content {
     padding: 0 40px;
@@ -190,13 +175,14 @@ h3 {
 
 .projects-array > .project > a > .project-img {
     background: #333333;
-    height: 30vw;
     max-height: 350px;
+    max-width: 480px;
+    width: 100%;
     border: 3px solid white;
     transition: all 0.1s linear;
     cursor: pointer;
     position: relative;
-    box-shadow: 0px 5px 20px #d2d2d2;
+    box-shadow: 0px 0.5rem 1rem #d2d2d2;
     border-radius: 2rem;
 }
 

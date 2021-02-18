@@ -82,6 +82,9 @@
     h1 {
         font-size: 2rem;
       }
+      .projects-array {
+        grid-template-columns: 1fr;
+      }
 }
 
 @media (max-width: 390px) {
