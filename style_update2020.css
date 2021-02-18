@@ -8,6 +8,7 @@ body {
     background: #fbf8f5;
     /* background: white; */
     background-position: center;
+    overflow-x: hidden;
 }
 
 .dots-background {
