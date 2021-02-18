@@ -71,10 +71,11 @@
   @media (max-width: 650px) {
     h1 {
         font-size: 2.5rem;
+        line-height: 1.75;
       }
 
       h1 > .white-text {
-        padding: 1px;
+        padding: 0.5rem;
       }
 }
 
